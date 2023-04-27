@@ -20,8 +20,9 @@ jobs:
 
   #     - name: Step 3
   #       run: echo "This is step 3"
-    build-test
-      runs-on:ubuntu-latest
+  
+    build-test:
+      runs-on: ubuntu-latest
       
       steps:
 
